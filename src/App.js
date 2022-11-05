@@ -79,7 +79,7 @@ const loadWithUrl = (content) => {
 
     console.log(url)  //we can see in console create url
 
-    URL.revokeObjectURL(url)
+    URL.revokeObjectURL(url)   //удаляем(чистим) после загрузки ссылку
 }
 
 
